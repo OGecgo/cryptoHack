@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/go/Desktop/cryptohack'
+cc -g   -c -o romanCipher.o romanCipher.c
+gcc ./romanCipher.o -g -o play/executable
+rm ./romanCipher.o
+./play/executable
+make: Leaving directory '/home/go/Desktop/cryptohack'
+ 
