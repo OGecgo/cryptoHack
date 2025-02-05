@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Feb  4 17:25:41 2025
+# Make data base, printed on Tue Feb  4 23:20:02 2025
 
 # Variables
 
@@ -20,8 +20,6 @@ GDK_BACKEND = x11
 MEMORY_PRESSURE_WRITE = c29tZSAyMDAwMDAgMjAwMDAwMAA=
 # environment
 LC_ALL = C
-# environment
-NO_AT_BRIDGE = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
@@ -41,7 +39,7 @@ OBJECT = ./romanCipher.o
 # environment
 VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # environment
-VSCODE_CWD = /home/go/Desktop/cryptohack
+VSCODE_CWD = /home/go
 # environment
 WINDOWPATH = 2
 # environment
@@ -68,8 +66,6 @@ PWD = /home/go/Desktop/cryptohack
 XDG_DATA_DIRS = /home/go/snap/code/181/.local/share:/home/go/snap/code/181:/snap/code/181/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
 SNAP_EUID = 1000
-# environment
-OLDPWD = /home/go/Desktop/cryptohack/encoding
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
@@ -89,7 +85,7 @@ JENV_FORCEJDKHOME = true
 # environment
 MEMORY_PRESSURE_WATCH = /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure
 # environment
-GNOME_TERMINAL_SERVICE = :1.493
+GNOME_TERMINAL_SERVICE = :1.96
 # makefile
 MAKEFLAGS = pqrR
 # makefile
@@ -98,6 +94,8 @@ CURDIR := /home/go/Desktop/cryptohack
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -117,7 +115,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 26722
+VSCODE_PID = 4329
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -125,7 +123,7 @@ XDG_SESSION_TYPE = x11
 # environment
 XDG_DATA_HOME = /home/go/snap/code/181/.local/share
 # environment
-SESSION_MANAGER = local/go-IdeaPad-Gaming-3-15IHU6:@/tmp/.ICE-unix/3128,unix/go-IdeaPad-Gaming-3-15IHU6:/tmp/.ICE-unix/3128
+SESSION_MANAGER = local/go-IdeaPad-Gaming-3-15IHU6:@/tmp/.ICE-unix/3163,unix/go-IdeaPad-Gaming-3-15IHU6:/tmp/.ICE-unix/3163
 # automatic
 *F = $(notdir $*)
 # environment
@@ -157,7 +155,7 @@ SHLVL = 1
 # environment
 JENV_LOADED = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/142d847d_0149_4295_8c00_4b0c31634129
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/7031f89e_9beb_4717_ab3a_ee163ce70af9
 # environment
 MAKELEVEL := 0
 # default
@@ -221,7 +219,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := play/executable
 # environment
-SYSTEMD_EXEC_PID = 3312
+SYSTEMD_EXEC_PID = 3333
 # environment
 DISPLAY = :1
 # environment
@@ -315,18 +313,18 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 # environment
 JRE_HOME = /home/go/.jenv/versions/temurin64-21.0.3
 # variable set hash-table stats:
-# Load=151/1024=15%, Rehash=0, Collisions=18/183=10%
+# Load=150/1024=15%, Rehash=0, Collisions=19/182=10%
 
 # Pattern-specific Variable Values
 
 # No pattern-specific variable values.
- 
 
 # Directories
 
-# . (device 66306, inode 15897968): 7 files, no impossibilities.
+ 
+# . (device 66306, inode 15897968): 8 files, no impossibilities.
 
-# 7 files, no impossibilities in 1 directories.
+# 8 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -405,12 +403,12 @@ play/executable: romanCipher.o
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 18 / storage = 164 B / avg = 9 B
-# current buf: size = 8162 B / used = 164 B / count = 18 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 19 / storage = 169 B / avg = 8 B
+# current buf: size = 8162 B / used = 169 B / count = 19 / avg = 8 B
 
-# strcache performance: lookups = 27 / hit rate = 33%
+# strcache performance: lookups = 28 / hit rate = 32%
 # hash-table stats:
-# Load=18/8192=0%, Rehash=0, Collisions=0/27=0%
-# Finished Make data base on Tue Feb  4 17:25:41 2025
+# Load=19/8192=0%, Rehash=0, Collisions=0/28=0%
+# Finished Make data base on Tue Feb  4 23:20:02 2025
 
  
