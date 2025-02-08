@@ -1,7 +1,7 @@
 #!/bin/python3 
 
 #Euclids Algorithm
-def egcd(a, b):
+def egcd(a, b): #gcd = ay + bx
 
     if (a == 0): #gcd(a, 0) = a
         print(a)
@@ -20,10 +20,14 @@ def egcd(a, b):
     x0, x1 = 0, 1
     y0, y1 = 1, 0  
     
-    r0, r1 = a * y0, b * x0
+    r0, r1 = a , b 
     
     while True:
-        print("{}=({} - {} * {})".format((x0 - x1 * (r0//r1)), x0, x1, r0//r1))
+        print("X {}=({} - {} * {})".format((x0 - x1 * (r0//r1)), x0, x1, r0//r1))
+        print("Y {}=({} - {} * {})".format((y0 - y1 * (r0//r1)), y0, y1, r0//r1))
+        print("R {}=({} - {} * {})".format((r0 - r1 * (r0//r1)), r0, r1, r0//r1))
+
+
         
         q = r0//r1
         x0 = (x0 - x1 * q)
@@ -34,7 +38,7 @@ def egcd(a, b):
         r0, r1 = r1, r0
         
         if (r1 == 0):
-            print(r0, x0, y0)
+            print("gcd(a, b) = {} = a * {} + b * {}".format(r0, y0, x0))
             return
     
 
@@ -44,6 +48,6 @@ def egcd(a, b):
 a = 26513
 b = 32321
 
-egcd(a, b)
+egcd(1914, 899)
 
 
