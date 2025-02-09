@@ -1,4 +1,5 @@
-
-
 # Ignore the .vscode directory
 .vscode
+
+# Ignore target.log
+target.log
