@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Feb  4 23:20:02 2025
+# Make data base, printed on Mon Feb 10 18:53:18 2025
 
 # Variables
 
@@ -20,6 +20,8 @@ GDK_BACKEND = x11
 MEMORY_PRESSURE_WRITE = c29tZSAyMDAwMDAgMjAwMDAwMAA=
 # environment
 LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
@@ -39,7 +41,7 @@ OBJECT = ./romanCipher.o
 # environment
 VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # environment
-VSCODE_CWD = /home/go
+VSCODE_CWD = /home/go/Desktop/cryptohack
 # environment
 WINDOWPATH = 2
 # environment
@@ -53,7 +55,7 @@ QT_ACCESSIBILITY = 1
 # environment
 SNAP_INSTANCE_NAME = code
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/181/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/182/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -63,15 +65,17 @@ PWD = /home/go/Desktop/cryptohack
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-XDG_DATA_DIRS = /home/go/snap/code/181/.local/share:/home/go/snap/code/181:/snap/code/181/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_DATA_DIRS = /home/go/snap/code/182/.local/share:/home/go/snap/code/182:/snap/code/182/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
 SNAP_EUID = 1000
+# environment
+OLDPWD = /home/go/Desktop/cryptohack/GENERAL/DATA_FORMATS
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/go/.config/Code/CachedData/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba
+VSCODE_CODE_CACHE_PATH = /home/go/.config/Code/CachedData/33fc5a94a3f99ebe7087e8fe79fbe1d37a251016
 # environment
 LANG = C
 # environment
@@ -85,7 +89,7 @@ JENV_FORCEJDKHOME = true
 # environment
 MEMORY_PRESSURE_WATCH = /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure
 # environment
-GNOME_TERMINAL_SERVICE = :1.96
+GNOME_TERMINAL_SERVICE = :1.93
 # makefile
 MAKEFLAGS = pqrR
 # makefile
@@ -94,8 +98,6 @@ CURDIR := /home/go/Desktop/cryptohack
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
-# environment
-VSCODE_L10N_BUNDLE_LOCATION = 
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -115,15 +117,15 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 4329
+VSCODE_PID = 32767
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-XDG_DATA_HOME = /home/go/snap/code/181/.local/share
+XDG_DATA_HOME = /home/go/snap/code/182/.local/share
 # environment
-SESSION_MANAGER = local/go-IdeaPad-Gaming-3-15IHU6:@/tmp/.ICE-unix/3163,unix/go-IdeaPad-Gaming-3-15IHU6:/tmp/.ICE-unix/3163
+SESSION_MANAGER = local/go-IdeaPad-Gaming-3-15IHU6:@/tmp/.ICE-unix/3182,unix/go-IdeaPad-Gaming-3-15IHU6:/tmp/.ICE-unix/3182
 # automatic
 *F = $(notdir $*)
 # environment
@@ -135,11 +137,11 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # makefile (from 'Makefile', line 1)
 EXEC = play/executable
 # environment
-VSCODE_NLS_CONFIG = {"userLocale":"en","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/181/usr/share/code/resources/app/out/nls.messages.json","locale":"en","availableLanguages":{}}
+VSCODE_NLS_CONFIG = {"userLocale":"en","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/182/usr/share/code/resources/app/out/nls.messages.json","locale":"en","availableLanguages":{}}
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-GTK_PATH = /snap/code/181/usr/lib/x86_64-linux-gnu/gtk-3.0
+GTK_PATH = /snap/code/182/usr/lib/x86_64-linux-gnu/gtk-3.0
 # environment
 GNOME_DESKTOP_SESSION_ID = this-is-deprecated
 # makefile
@@ -155,7 +157,7 @@ SHLVL = 1
 # environment
 JENV_LOADED = 1
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/7031f89e_9beb_4717_ab3a_ee163ce70af9
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/9a3168e2_e2c2_4faa_8c11_0f1aee6c2c8c
 # environment
 MAKELEVEL := 0
 # default
@@ -163,7 +165,7 @@ MAKE = $(MAKE_COMMAND)
 # environment
 SNAP_COOKIE = qv2CWYNC4bkUno9pfmCWtxt2McO_GgbTz5NnmlKXwJ8Giofz54Mv
 # environment
-PATH = /home/go/.jenv/shims:/home/go/.jenv/bin:/home/go/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/go/.dotnet/tools:/home/go/maven/apache-maven-3.9.7/bin
+PATH = /home/go/.jenv/shims:/home/go/.jenv/bin:/home/go/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/go/.dotnet/tools:/home/go/maven/apache-maven-3.9.7/bin:/home/go/myBash/bin
 # default
 MAKEFILES := 
 # environment
@@ -177,11 +179,11 @@ SNAP_USER_COMMON = /home/go/snap/code/common
 # environment
 LC_TIME = el_GR.UTF-8
 # environment
-SNAP = /snap/code/181
+SNAP = /snap/code/182
 # environment
 JENV_SHELL = bash
 # environment
-SNAP_REVISION = 181
+SNAP_REVISION = 182
 # environment
 SNAP_REAL_HOME = /home/go
 # environment
@@ -207,7 +209,7 @@ DESKTOP_SESSION = ubuntu
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
-LOCPATH = /snap/code/181/usr/lib/locale
+LOCPATH = /snap/code/182/usr/lib/locale
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
@@ -219,7 +221,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := play/executable
 # environment
-SYSTEMD_EXEC_PID = 3333
+SYSTEMD_EXEC_PID = 3349
 # environment
 DISPLAY = :1
 # environment
@@ -229,7 +231,7 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-SNAP_DATA = /var/snap/code/181
+SNAP_DATA = /var/snap/code/182
 # environment
 SNAP_CONTEXT = qv2CWYNC4bkUno9pfmCWtxt2McO_GgbTz5NnmlKXwJ8Giofz54Mv
 # environment
@@ -269,15 +271,16 @@ JDK_HOME = /home/go/.jenv/versions/temurin64-21.0.3
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-dd498937-1.96-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-dd498937-1.97-main.sock
 # environment
 TERM = xterm-256color
 # environment
-GTK_EXE_PREFIX = /snap/code/181/usr
+GTK_EXE_PREFIX = /snap/code/182/usr
 # environment
+ 
 SNAP_NAME = code
 # environment
-GSETTINGS_SCHEMA_DIR = /home/go/snap/code/181/.local/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /home/go/snap/code/182/.local/share/glib-2.0/schemas
 # environment
 PAPERSIZE = a4
 # default
@@ -285,7 +288,7 @@ PAPERSIZE = a4
 # automatic
 <F = $(notdir $<)
 # environment
-SNAP_VERSION = cd4ee3b1
+SNAP_VERSION = 33fc5a94
 # default
 SUFFIXES := 
 # environment
@@ -299,7 +302,7 @@ SNAP_COMMON = /var/snap/code/common
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
-SNAP_USER_DATA = /home/go/snap/code/181
+SNAP_USER_DATA = /home/go/snap/code/182
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
@@ -313,7 +316,7 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 # environment
 JRE_HOME = /home/go/.jenv/versions/temurin64-21.0.3
 # variable set hash-table stats:
-# Load=150/1024=15%, Rehash=0, Collisions=19/182=10%
+# Load=151/1024=15%, Rehash=0, Collisions=18/183=10%
 
 # Pattern-specific Variable Values
 
@@ -321,10 +324,9 @@ JRE_HOME = /home/go/.jenv/versions/temurin64-21.0.3
 
 # Directories
 
- 
-# . (device 66306, inode 15897968): 8 files, no impossibilities.
+# . (device 66306, inode 15897968): 9 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 9 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -403,12 +405,12 @@ play/executable: romanCipher.o
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 19 / storage = 169 B / avg = 8 B
-# current buf: size = 8162 B / used = 169 B / count = 19 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 20 / storage = 179 B / avg = 8 B
+# current buf: size = 8162 B / used = 179 B / count = 20 / avg = 8 B
 
-# strcache performance: lookups = 28 / hit rate = 32%
+# strcache performance: lookups = 29 / hit rate = 31%
 # hash-table stats:
-# Load=19/8192=0%, Rehash=0, Collisions=0/28=0%
-# Finished Make data base on Tue Feb  4 23:20:02 2025
+# Load=20/8192=0%, Rehash=0, Collisions=0/29=0%
+# Finished Make data base on Mon Feb 10 18:53:18 2025
 
  
